@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WeexPluginICLInput"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "weex-plugin-ios-iclInput File"
 
   s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/super-chen/weex-plugin-ios-iclInput.git', :tag => s.version }
 
-  s.source_files = "Classes","Classes/*.{h,m}"
+  s.source_files = "Classes/**/*.{h,m}"
 
   s.resources = "Classes/Resources/*"
 
