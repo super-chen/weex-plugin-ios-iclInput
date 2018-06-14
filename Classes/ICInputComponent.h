@@ -19,7 +19,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "WXEditComponent.h"
+#import <WeexSDK/WXEditComponent.h>
 
 @interface ICTextInputView : UITextField
 @property (nonatomic, assign) UIEdgeInsets border;

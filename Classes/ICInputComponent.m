@@ -18,7 +18,7 @@
  */
 
 #import "ICInputComponent.h"
-#import "WXConvert.h"
+#import <WeexSDK/WXConvert.h>
 #import "NumberKeypadView.h"
 
 @implementation ICTextInputView
