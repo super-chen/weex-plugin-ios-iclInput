@@ -32,4 +32,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'WeexSDK', '0.18'
+  
 end

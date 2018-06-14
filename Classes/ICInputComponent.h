@@ -19,18 +19,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <WeexSDK/WXEditComponent.h>
 
-@interface ICTextInputView : UITextField
-@property (nonatomic, assign) UIEdgeInsets border;
-@property (nonatomic, assign) UIEdgeInsets padding;
-@property (nonatomic, assign) BOOL deleteWords;
-@property (nonatomic, strong) NSString *editWords;
-@end
+@interface ICInputComponent : NSObject
 
-@interface ICInputComponent : WXEditComponent
-
-@property (nonatomic) BOOL onEvent;
-@property (nonatomic) BOOL inputEvent;
 
 @end
