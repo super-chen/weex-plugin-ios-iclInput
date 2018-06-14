@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WeexPluginICLInput"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "weex-plugin-ios-iclInput File"
 
   s.description  = <<-DESC
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'WeexSDK', '0.18'
-  
+
 end
