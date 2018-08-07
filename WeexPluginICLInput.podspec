@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WeexPluginICLInput"
-  s.version      = "0.2.1"
+  s.version      = "0.2.3"
   s.summary      = "weex-plugin-ios-iclInput File"
 
   s.description  = <<-DESC
