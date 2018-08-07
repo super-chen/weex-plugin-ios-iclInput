@@ -102,9 +102,6 @@ WX_PlUGIN_EXPORT_COMPONENT(icInput, ICInputComponent)
             if(_inputView.text.length > 0){
                 _inputView.text = [_inputView.text substringToIndex:([_inputView.text length]-1)];
             }
-            if([_inputView.text isEqualToString:@"-"]){
-                _inputView.text = @"";
-            }
             if(_onEvent){
                 [self fireEvent:@"onEvent" params:@{@"value":text}];
             }
